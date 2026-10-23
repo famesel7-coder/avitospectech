@@ -1,8 +1,17 @@
 # Инструкция для генерации новых слайдов · Авито Спецтехника
 
-Перед созданием каждого слайда считать `brand/visual-style.md`, `brand/layouts.md` и `tokens/design-tokens.json` каноническими.
+## Обязательный repo-first workflow
 
-## Порядок работы
+Перед каждой новой задачей по этой презентации:
+
+1. Сначала прочитать актуальные правила в репозитории `famesel7-coder/avitospectech`.
+2. Канонические файлы: `brand/visual-style.md`, `brand/figma-foundations.md`, `brand/layouts.md`, `tokens/design-tokens.json`.
+3. Затем обратиться к Figma page **STYLE GUIDE · AVITO SP** (page node `2025:65`).
+4. Для цвета / spacing / radius использовать collection **AVITO / Presentation**.
+5. Для текста использовать локальные text styles `AVITO /`.
+6. Если repo и Figma расходятся, **репозиторий выигрывает**, после чего Figma foundations нужно синхронизировать с repo.
+
+## Порядок создания слайда
 
 1. Сначала определить главный смысл слайда одним предложением.
 2. Найти один главный визуальный приоритет: число, вывод, продуктовый экран или иллюстрация.
