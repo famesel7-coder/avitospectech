@@ -1,7 +1,7 @@
 {
   "meta": {
     "name": "Avito current presentation style",
-    "version": "2.0",
+    "version": "2.1",
     "source": "https://www.figma.com/design/YLrOv4c3BpgE27DoG4V5zQ/Untitled?node-id=0-1",
     "analyzedSlides": 53,
     "canvas": {
@@ -9,7 +9,23 @@
       "height": 1080,
       "ratio": "16:9"
     },
-    "note": "Extracted from actual Figma layer properties; source contains no local Figma styles or variables."
+    "note": "Extracted from actual Figma layers and materialized back into Figma foundations. Repository remains source of truth.",
+    "figmaFoundations": {
+      "pageName": "STYLE GUIDE · AVITO SP",
+      "pageNodeId": "2025:65",
+      "variableCollectionName": "AVITO / Presentation",
+      "variableCollectionId": "VariableCollectionId:2025:66",
+      "variableCount": 20,
+      "textStyleCount": 11,
+      "specimenFrameIds": [
+        "2026:66",
+        "2026:76",
+        "2026:95",
+        "2026:125",
+        "2026:145",
+        "2026:161"
+      ]
+    }
   },
   "typography": {
     "family": "Manrope",
@@ -79,7 +95,20 @@
         104.3
       ],
       "dense": 114.3
-    }
+    },
+    "figmaTextStyles": [
+      "AVITO / Hero 130",
+      "AVITO / Slide Title 73",
+      "AVITO / Slide Title 70",
+      "AVITO / Subsection 51",
+      "AVITO / Card Title 44",
+      "AVITO / Body 35",
+      "AVITO / Body Medium 35",
+      "AVITO / Dense 30",
+      "AVITO / Caption 25",
+      "AVITO / Micro 20",
+      "AVITO / KPI 99"
+    ]
   },
   "colors": {
     "backgroundLight": "#ECF3FA",
@@ -133,5 +162,27 @@
     "shadows": "minimal",
     "lightCard": "#FFFFFF",
     "translucentBlue": "rgba(91,137,198,0.20)"
-  }
+  },
+  "figmaVariables": [
+    "color/bg/light",
+    "color/text/primary",
+    "color/text/inverse",
+    "color/surface/white",
+    "color/surface/near-black",
+    "color/brand/blue",
+    "color/brand/deep-blue",
+    "color/accent/cyan",
+    "color/accent/purple",
+    "color/accent/green",
+    "color/status/positive",
+    "color/status/alert",
+    "color/neutral/300",
+    "color/surface/blue-20",
+    "color/surface/blue-40",
+    "space/20",
+    "space/40",
+    "space/60",
+    "radius/20",
+    "radius/40"
+  ]
 }
