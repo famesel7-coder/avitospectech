@@ -1,20 +1,41 @@
 # Figma audit · current Avito presentation
 
-Дата анализа: 23 октября 2026.
+Дата анализа и синхронизации: 23 октября 2026.
 
 Источник: https://www.figma.com/design/YLrOv4c3BpgE27DoG4V5zQ/Untitled?node-id=0-1
 
-## Что проверено
+## Исходный аудит
 
-- 1 страница Figma.
-- 53 верхнеуровневых слайда.
+- 53 верхнеуровневых исходных слайда.
 - Каждый слайд: 1920×1080.
 - 708 текстовых слоёв.
 - Основной шрифт по всем повторяющимся стилям: Manrope.
-- Локальные Text/Paint/Grid Styles отсутствуют.
-- Локальные Variables отсутствуют.
+- До нормализации в файле не было локальных Text/Paint/Grid Styles и Variables.
 
-## Частые типографические значения
+## Нормализация, выполненная после аудита
+
+Создана отдельная page:
+- **STYLE GUIDE · AVITO SP**
+- node `2025:65`
+
+Создана collection:
+- **AVITO / Presentation**
+- `VariableCollectionId:2025:66`
+- 20 variables
+
+Созданы 11 text styles `AVITO /` на базе Manrope.
+
+Созданы 6 specimen frames:
+- `2026:66` — Core rules
+- `2026:76` — Typography
+- `2026:95` — Colors & surfaces
+- `2026:125` — Grid & layout
+- `2026:145` — KPI & cards
+- `2026:161` — Visual language
+
+Валидация: 75/75 текстовых слоёв style guide используют Manrope.
+
+## Частые типографические значения исходника
 
 Наиболее повторяемые размеры: 35, 30, 73, 40, 45, 41, 31, 39, 26, 38, 70 px.
 
@@ -49,7 +70,7 @@
 
 **Dark:** синий линейный градиент + белый текст + glass-панели + яркий cyan.
 
-## Репрезентативные Figma-слайды
+## Репрезентативные исходные Figma-слайды
 
 - 6 — Before / After
 - 8 — Product launch + smartphones
@@ -60,4 +81,4 @@
 - 36 — typographic hero + status cards
 - 46 — dense dashboard
 
-Эти слайды использовать как первичные визуальные референсы при спорных решениях.
+При спорных решениях сначала использовать repo rules, затем specimen page и эти исходные референсы.
